@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="SessionGroup" syncable="YES">
+        <attribute name="session_title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Workout" syncable="YES">
+        <attribute name="sets" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="workout_title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SessionGroup" positionX="-45" positionY="-9" width="128" height="58"/>
+        <element name="Workout" positionX="288" positionY="138" width="128" height="88"/>
+    </elements>
+</model>
